@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #000000, #010060);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo-paragrafo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.titulo-principal {
+    font-family: "Chewy", system-ui;
+    font-size: 7.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.paragrafo-pricipal {
+    font-family: "Inter", sans-serif;
+    color: #e9e9ff;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    gap: 1.5rem;
+}
+
+.botao {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0d1bb2;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #1a2ef5;
+    transform: translateY(-3px);
+}
+
+.imagem {
+    margin-top: 150px;
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+}
